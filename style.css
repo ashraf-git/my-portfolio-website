@@ -15,7 +15,7 @@ p{
 section{
     padding-top: 100px;
     padding-bottom: 150px;
-    height: 600px;
+    height: 500px;
 }
 .orange-highlight{
     color: #EC4C7A;
@@ -72,6 +72,33 @@ section{
 .single-work img{
     width: 100%;
 }
+.experience-area{
+    background-image: url(images/biography-bg.png);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 700px;
+    padding-bottom: 100px;
+}
+.education-single{
+    margin: 5px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    box-shadow: 10px 10px 40px gray;
+    background-color: white;
+    transition: all .5s ease-in-out;
+}
+.education-single h2{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.education-single:hover{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #EC4C7A, #f046e7);
+    border-image-slice: 1;
+    border-radius: 5px;
+    font-size: 18px;
+}
 .client-area{
     text-align: center;
     background-image: url(images/footer-bg.png);
@@ -99,6 +126,7 @@ section{
 .mail p{
     color: white;
     font-size: 16px;
+    margin-bottom: -10px;
 }
 footer{
     margin-bottom: 30px;
